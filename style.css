@@ -1,1 +1,26 @@
+/* Variáveis ​​​​Central - Facilitam a manutenção e garantem a consistência */
+:root {
+    --verde-agrinho: #2ecc71;
+    --dark-green: #27ae60;
+    --amarelo-highlight: #f1c40f;
+    --cor-dark-text: #2d3436;
+    --pure-white: #ffffff;
+    --soft-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+/* Reinicialização Global - Garante que o site inicie do zero em qualquer navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--cor-dark-text);
+    line-height: 1.6;
+    background-color: var(--pure-white);
+    display: flex;
+    flex-direction: column;
+    altura-mínima: 100vh;
+}
